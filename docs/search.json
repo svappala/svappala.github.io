@@ -1,17 +1,10 @@
 [
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Sreeparna Vappala",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "Add a project here\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJun 7, 2025\n\n\nSreeparna Vappala\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJun 4, 2025\n\n\nSreeparna Vappala\n\n\n\n\n\n\nNo matching items"
+    "text": "I am a science educator and biologist passionate about teaching and making science accessible. I focus on anatomy, physiology, and cell biology, and love creating engaging, inclusive learning environments. Outside of work, I enjoy hiking, traveling, and finding great coffee."
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -21,10 +14,24 @@
     "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Sreeparna Vappala",
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
     "section": "",
-    "text": "I am a science educator and biologist passionate about teaching and making science accessible. I focus on anatomy, physiology, and cell biology, and love creating engaging, inclusive learning environments. Outside of work, I enjoy hiking, traveling, and finding great coffee."
+    "text": "About me\nI hold a Master’s degree from India and a PhD from the University of British Columbia. My research background is in Chemical Biology. I currently teach undergraduate courses and enjoy combining active learning with clear, well-structured assessments. Outside of teaching I love spending time outdoors, exploring new places, and trying different types of food.\n\n\nTeaching appointments\n\nLecturer, Department of Microbiology & Immunology, University of British Columbia (UBC) — Lecturer Dates: add dates\nInstructor, Department of [Department name], University of Manitoba — Instructor Dates: add dates\nOther teaching roles (guest lectures, TA, workshop instructor)\nGuest lectures and workshop facilitation — add details and dates\n\n\n\nCourses taught\n\nSCIE 133 — [Course title / short description] Role: Instructor / Lecturer / Guest (choose one). Semester: add semester(s) Short description: Introduce the course in one or two lines (e.g., course level, topics covered, typical class size).\nMICB 323 — [Course title / short description] Role: Instructor / Lecturer / Guest (choose one). Semester: add semester(s) Short description: Key topics and learning objectives.\nMICB 212 — [Course title / short description] Role: Instructor / Lecturer / Guest (choose one). Semester: add semester(s) Short description: Key topics and learning objectives.\n\n\n\nSupervision & Mentorship\n\nUndergraduate project supervision — list student names, project titles, dates\nGraduate student mentorship — list names and roles\nLab training and mentoring for new TAs — add details\n\n\n\nTeaching materials & resources\n\nSlides, assessments, and lab resources — link or point to repository (e.g., Teams, Canvas, GitHub, or OneDrive).\nExample: “Slides for MICB 323 — link or path”\n\n\n\nTeaching philosophy (short)\nI focus on clarity, inclusivity, and active learning. I use a mixture of formative assessments and in-class activities to build student confidence and competence. I aim to create an engaging learning environment where students feel supported to explore, ask questions, and practice scientific thinking.\n\n\nHow to edit & render this page\n\nSave this file as teaching_experiences.qmd inside your Quarto website project (e.g., in content/ or the root).\nEdit the placeholders (dates, course descriptions, links).\nRender or preview locally with quarto preview or quarto render from your project directory."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "blogs.html",
+    "href": "blogs.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Add a project here\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJun 7, 2025\n\n\nSreeparna Vappala\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJun 4, 2025\n\n\nSreeparna Vappala\n\n\n\n\n\n\nNo matching items"
   }
 ]

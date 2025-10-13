@@ -12,7 +12,11 @@ about:
       href: https://www.linkedin.com/in/sreeparna-vappala-95221960/
     - icon: github
       text: Github
-      href: https://github.com/sreeparnav/
+      href: https://github.com/svappala
+format:
+  html:
+    theme: default
+    css: style.css
 ---
 
 I am a science educator and biologist passionate about teaching and making science accessible. I focus on anatomy, physiology, and cell biology, and love creating engaging, inclusive learning environments. Outside of work, I enjoy hiking, traveling, and finding great coffee.

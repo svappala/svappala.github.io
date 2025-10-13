@@ -1,12 +1,92 @@
 ---
 title: "Teaching"
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
+format: 
+  html:
+    theme: cosmo
+    toc: true
+    number-sections: false
 page-layout: full
 title-block-banner: true
 ---
+
+# About me
+
+
+I hold a Master's degree from India and a PhD from the University of British Columbia. My research background is in Chemical Biology. I currently teach undergraduate courses and enjoy combining active learning with clear, well-structured assessments. Outside of teaching I love spending time outdoors, exploring new places, and trying different types of food.
+
+
+
+
+# Teaching appointments
+
+
+- **Lecturer, Department of Microbiology & Immunology, University of British Columbia (UBC)** — *Lecturer*
+Dates: _add dates_
+
+
+- **Instructor, Department of [Department name], University of Manitoba** — *Instructor*
+Dates: _add dates_
+
+
+- **Other teaching roles (guest lectures, TA, workshop instructor)**
+- Guest lectures and workshop facilitation — _add details and dates_
+
+
+
+
+# Courses taught
+
+
+- **SCIE 133 — [Course title / short description]**
+Role: Instructor / Lecturer / Guest (choose one).
+Semester: _add semester(s)_
+Short description: Introduce the course in one or two lines (e.g., course level, topics covered, typical class size).
+
+
+- **MICB 323 — [Course title / short description]**
+Role: Instructor / Lecturer / Guest (choose one).
+Semester: _add semester(s)_
+Short description: Key topics and learning objectives.
+
+
+- **MICB 212 — [Course title / short description]**
+Role: Instructor / Lecturer / Guest (choose one).
+Semester: _add semester(s)_
+Short description: Key topics and learning objectives.
+
+
+
+
+# Supervision & Mentorship
+
+
+- Undergraduate project supervision — _list student names, project titles, dates_
+- Graduate student mentorship — _list names and roles_
+- Lab training and mentoring for new TAs — _add details_
+
+
+
+
+# Teaching materials & resources
+
+
+- Slides, assessments, and lab resources — link or point to repository (e.g., Teams, Canvas, GitHub, or OneDrive).
+- Example: "Slides for MICB 323 — link or path"
+
+
+
+
+# Teaching philosophy (short)
+
+
+I focus on clarity, inclusivity, and active learning. I use a mixture of formative assessments and in-class activities to build student confidence and competence. I aim to create an engaging learning environment where students feel supported to explore, ask questions, and practice scientific thinking.
+
+
+
+
+# How to edit & render this page
+
+
+1. Save this file as `teaching_experiences.qmd` inside your Quarto website project (e.g., in `content/` or the root).
+2. Edit the placeholders (dates, course descriptions, links).
+3. Render or preview locally with `quarto preview` or `quarto render` from your project directory.

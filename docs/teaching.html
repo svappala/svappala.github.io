@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -68,65 +66,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -188,8 +128,20 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="analysis">analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="code">code <span class="quarto-category-count">(1)</span></div><div class="category" data-category="news">news <span class="quarto-category-count">(2)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#about-me" id="toc-about-me" class="nav-link active" data-scroll-target="#about-me">About me</a></li>
+  <li><a href="#teaching-appointments" id="toc-teaching-appointments" class="nav-link" data-scroll-target="#teaching-appointments">Teaching appointments</a></li>
+  <li><a href="#courses-taught" id="toc-courses-taught" class="nav-link" data-scroll-target="#courses-taught">Courses taught</a></li>
+  <li><a href="#supervision-mentorship" id="toc-supervision-mentorship" class="nav-link" data-scroll-target="#supervision-mentorship">Supervision &amp; Mentorship</a></li>
+  <li><a href="#teaching-materials-resources" id="toc-teaching-materials-resources" class="nav-link" data-scroll-target="#teaching-materials-resources">Teaching materials &amp; resources</a></li>
+  <li><a href="#teaching-philosophy-short" id="toc-teaching-philosophy-short" class="nav-link" data-scroll-target="#teaching-philosophy-short">Teaching philosophy (short)</a></li>
+  <li><a href="#how-to-edit-render-this-page" id="toc-how-to-edit-render-this-page" class="nav-link" data-scroll-target="#how-to-edit-render-this-page">How to edit &amp; render this page</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -197,89 +149,58 @@ window.Quarto = {
 
 
 
+<section id="about-me" class="level1">
+<h1>About me</h1>
+<p>I hold a Master’s degree from India and a PhD from the University of British Columbia. My research background is in Chemical Biology. I currently teach undergraduate courses and enjoy combining active learning with clear, well-structured assessments. Outside of teaching I love spending time outdoors, exploring new places, and trying different types of food.</p>
+</section>
+<section id="teaching-appointments" class="level1">
+<h1>Teaching appointments</h1>
+<ul>
+<li><p><strong>Lecturer, Department of Microbiology &amp; Immunology, University of British Columbia (UBC)</strong> — <em>Lecturer</em> Dates: <em>add dates</em></p></li>
+<li><p><strong>Instructor, Department of [Department name], University of Manitoba</strong> — <em>Instructor</em> Dates: <em>add dates</em></p></li>
+<li><p><strong>Other teaching roles (guest lectures, TA, workshop instructor)</strong></p></li>
+<li><p>Guest lectures and workshop facilitation — <em>add details and dates</em></p></li>
+</ul>
+</section>
+<section id="courses-taught" class="level1">
+<h1>Courses taught</h1>
+<ul>
+<li><p><strong>SCIE 133 — [Course title / short description]</strong> Role: Instructor / Lecturer / Guest (choose one). Semester: <em>add semester(s)</em> Short description: Introduce the course in one or two lines (e.g., course level, topics covered, typical class size).</p></li>
+<li><p><strong>MICB 323 — [Course title / short description]</strong> Role: Instructor / Lecturer / Guest (choose one). Semester: <em>add semester(s)</em> Short description: Key topics and learning objectives.</p></li>
+<li><p><strong>MICB 212 — [Course title / short description]</strong> Role: Instructor / Lecturer / Guest (choose one). Semester: <em>add semester(s)</em> Short description: Key topics and learning objectives.</p></li>
+</ul>
+</section>
+<section id="supervision-mentorship" class="level1">
+<h1>Supervision &amp; Mentorship</h1>
+<ul>
+<li>Undergraduate project supervision — <em>list student names, project titles, dates</em></li>
+<li>Graduate student mentorship — <em>list names and roles</em></li>
+<li>Lab training and mentoring for new TAs — <em>add details</em></li>
+</ul>
+</section>
+<section id="teaching-materials-resources" class="level1">
+<h1>Teaching materials &amp; resources</h1>
+<ul>
+<li>Slides, assessments, and lab resources — link or point to repository (e.g., Teams, Canvas, GitHub, or OneDrive).</li>
+<li>Example: “Slides for MICB 323 — link or path”</li>
+</ul>
+</section>
+<section id="teaching-philosophy-short" class="level1">
+<h1>Teaching philosophy (short)</h1>
+<p>I focus on clarity, inclusivity, and active learning. I use a mixture of formative assessments and in-class activities to build student confidence and competence. I aim to create an engaging learning environment where students feel supported to explore, ask questions, and practice scientific thinking.</p>
+</section>
+<section id="how-to-edit-render-this-page" class="level1">
+<h1>How to edit &amp; render this page</h1>
+<ol type="1">
+<li>Save this file as <code>teaching_experiences.qmd</code> inside your Quarto website project (e.g., in <code>content/</code> or the root).</li>
+<li>Edit the placeholders (dates, course descriptions, links).</li>
+<li>Render or preview locally with <code>quarto preview</code> or <code>quarto render</code> from your project directory.</li>
+</ol>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="news,code,analysis" data-listing-date-sort="1749279600000" data-listing-file-modified-sort="1749315370000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
-<div class="thumbnail">
-<p><a href="./posts/post-with-code/index.html" class="no-external"></a></p><a href="./posts/post-with-code/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/post-with-code/image.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/post-with-code/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/post-with-code/index.html" class="no-external">Add a project here</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/post-with-code/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('code'); return false;">
-code
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('analysis'); return false;">
-analysis
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/post-with-code/index.html" class="no-external">This is a post with executable code.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/post-with-code/index.html" class="no-external">
-<div class="listing-date">
-Jun 7, 2025
-</div>
-<div class="listing-author">
-Sreeparna Vappala
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="news" data-listing-date-sort="1749020400000" data-listing-file-modified-sort="1749315280000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
-<div class="thumbnail">
-<p><a href="./posts/welcome/index.html" class="no-external"></a></p><a href="./posts/welcome/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/welcome/thumbnail.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/welcome/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/welcome/index.html" class="no-external">Welcome To My Blog</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/welcome/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/welcome/index.html" class="no-external">This is the first post in a Quarto blog. Welcome!</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/welcome/index.html" class="no-external">
-<div class="listing-date">
-Jun 4, 2025
-</div>
-<div class="listing-author">
-Sreeparna Vappala
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

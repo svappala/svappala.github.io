@@ -1,1 +1,9 @@
 /* css styles */
+/* Override Jolla template image styling */
+.about-image img {
+  border-radius: 50%;      /* Keeps the circular shape */
+  width: 200px;            /* Adjust size as needed */
+  height: 200px;           /* Maintain aspect ratio */
+  object-fit: contain;     /* Ensures the entire image is visible */
+  object-position: top;    /* Aligns the image to the top */
+}
