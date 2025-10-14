@@ -19,7 +19,6 @@ format:
     theme: cyborg
     css: styles.css
     toc: true
-    analytics: G-650X5CVK40
     include-in-header: header.html
     
 
