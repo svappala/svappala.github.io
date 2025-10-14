@@ -18,6 +18,9 @@ format:
   html:
     theme: cyborg
     css: styles.css
+    analytics: G-650X5CVK40
+    
+
 
 editor: visual
 
