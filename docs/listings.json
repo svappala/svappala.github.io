@@ -1,5 +1,9 @@
 [
   {
+    "listing": "/teaching/index_teach.html",
+    "items": []
+  },
+  {
     "listing": "/blogs.html",
     "items": [
       "/posts/post-with-code/index.html",

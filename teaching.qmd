@@ -84,9 +84,4 @@ I focus on clarity, inclusivity, and active learning. I use a mixture of formati
 
 
 
-# How to edit & render this page
 
-
-1. Save this file as `teaching_experiences.qmd` inside your Quarto website project (e.g., in `content/` or the root).
-2. Edit the placeholders (dates, course descriptions, links).
-3. Render or preview locally with `quarto preview` or `quarto render` from your project directory.

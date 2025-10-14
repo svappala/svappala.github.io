@@ -1,11 +1,11 @@
 ---
 title: "Sreeparna Vappala"
-image: Sreeparna_Photo.jpg
+image: Sreeparna_Photo_2.jpeg
 about:
   template: jolla
   links:
-    - icon: twitter
-      text: Twitter
+    - icon: none
+      text: "formerly Twitter"
       href: https://x.com/sreeparnav
     - icon: linkedin
       text: LinkedIn
@@ -13,10 +13,12 @@ about:
     - icon: github
       text: Github
       href: https://github.com/svappala
+    - icon: envelope
+      text: Contact
+      href: contact.qmd
 format:
   html:
     theme: default
     css: style.css
 ---
-
-I am a science educator and biologist passionate about teaching and making science accessible. I focus on anatomy, physiology, and cell biology, and love creating engaging, inclusive learning environments. Outside of work, I enjoy hiking, traveling, and finding great coffee.
+I am a science educator and biologist passionate about making science accessible and engaging for everyone. My interests span science communication, molecular immunology, and cell biology. In my teaching, I strive to create inclusive, dynamic learning environments grounded in evidence-based practices.  Outside of work, I enjoy hiking, traveling, and discovering great coffee spots.

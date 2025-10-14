@@ -1,0 +1,50 @@
+---
+title: "Teaching"
+listing:
+  - id: ay_25-26
+    contents: ay_25-26.yml
+    sort: "date desc"
+  - id: ay_24-25
+    contents: ay_24-25.yml
+    sort: "date desc"
+  - id: ay_23-24
+    contents: ay_23-24.yml
+    sort: "date desc"
+  - id: ay_22-23
+    contents: ay_22-23.yml
+    sort: "date desc"    
+  - id: ay_21-22
+    contents: ay_21-22.yml
+    sort: "date desc"    
+       
+title-block-banner: "#212529"
+page-layout: full
+toc: true
+toc-location: right
+toc-title: Academic year
+---
+
+## 2025–26
+
+:::{#ay_25-26 .course-year}
+:::
+
+## 2024–25
+
+:::{#ay_24-25 .course-year}
+:::
+
+## 2023–24
+
+:::{#ay_23-24 .course-year}
+:::
+
+## 2022–23
+
+:::{#ay_22-23 .course-year}
+:::
+
+## 2021–22
+
+:::{#ay_21-22 .course-year}
+:::

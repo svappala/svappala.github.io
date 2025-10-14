@@ -1,0 +1,32 @@
+---
+title: "Contact"
+format:
+  html:
+    theme: default
+    css: style.css
+---
+
+📧 **Email**: [s.vappala\@ubc.ca](mailto:s.vappala@ubc.ca)
+
+**Office**: Room 3106
+
+**Biological Sciences Building**
+
+🏛️ Address:\
+Faculty of Science \| Microbiology and Immunology\
+The University of British Columbia \| Vancouver Campus \| Musqueam Traditional Territory\
+3106 – 6270 University Blvd\
+Vancouver, BC \| V6T 1Z4\
+Canada
+
+📞 Phone: 604 822 6251
+
+------------------------------------------------------------------------
+
+## Find Me on the Map
+
+::: map-container
+<iframe src="https://www.google.com/maps/embed/v1/place?q=UBC+Biological+Sciences+Building,+Vancouver,+BC&amp;key=AIzaSyDxJMZlWEc4Gwc0UiDDcU4yEJSHTo4wPDQ" width="600" height="450" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+
+</iframe>
+:::

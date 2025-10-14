@@ -9,9 +9,11 @@ website:
       - text: "Home"
         file: index.qmd
       - text: "Teaching"
-        file: teaching.qmd
+        href: "teaching/index_teach.qmd"
       - text: "CV"
         file: CV.qmd
+      - text: "Contact"
+        file: contact.qmd
 format:
   html:
     theme: cyborg
