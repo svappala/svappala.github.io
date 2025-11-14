@@ -26,25 +26,25 @@ toc-title: Academic year
 
 ## 2025–26
 
-:::{#ay_25-26 .course-year}
+::: {#ay_25-26 .course-year}
 :::
 
 ## 2024–25
 
-:::{#ay_24-25 .course-year}
+::: {#ay_24-25 .course-year}
 :::
 
 ## 2023–24
 
-:::{#ay_23-24 .course-year}
+::: {#ay_23-24 .course-year}
 :::
 
 ## 2022–23
 
-:::{#ay_22-23 .course-year}
+::: {#ay_22-23 .course-year}
 :::
 
 ## 2021–22
 
-:::{#ay_21-22 .course-year}
+::: {#ay_21-22 .course-year}
 :::
